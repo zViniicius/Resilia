@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
 
-
 @media (prefers-color-scheme: dark) {
   body {
     background-color: var(--bs-dark);
@@ -70,4 +69,17 @@ main > .container > .card:hover {
   background-color: black;
   padding: 25px;
   position: absolute;
+}
+
+footer > .container {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 3%;
+}
+footer > .container > a {
+  font-size: xx-large;
+  transition: font-size 0.1s;
+}
+footer > .container > a:hover {
+  font-size: 27pt;
 }
