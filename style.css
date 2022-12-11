@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: var(--bs-dark);
+    color: var(--bs-light);
+  }
+}
+@media (min-width: 1200px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 1280px;
+  }
+}
+@media (min-width: 340px) {
+  main {
+    display: flex;
+  }
+
+  @media (max-width: 580px) {
+    .logo {
+      visibility: hidden;
+    }
+  }
+}
+
+body {
+  padding: 1%;
+}
+
+.navbar > .container {
+  flex-direction: column;
+  align-content: stretch;
+  font-family: 'Fira Code', monospace;
+  line-height: 0px;
+}
+
+li > a {
+  font-family: 'Fira Code', monospace;
+}
+
+li > a:hover {
+  color: #ffc107;
+}
+
+main > .container {
+  padding-top: 2%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-direction: row;
+  width: max-content;
+}
+
+main > .container > .card {
+  margin-bottom: 2%;
+  transition: box-shadow 0.5s;
+  width: 20rem;
+}
+
+main > .container > .card:hover {
+  box-shadow: #ffc107 0px 0px 10px 5px;
+}
+
+.logo {
+  background-color: black;
+  padding: 25px;
+  position: absolute;
+}
