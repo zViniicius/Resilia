@@ -16,7 +16,11 @@
     max-width: 1280px;
   }
 }
-
+@keyframes progress-bar-stripes {
+  0% {
+    background-position-x: 50px;
+  }
+}
 @media (max-width: 580px) {
   .logo {
     visibility: hidden;
