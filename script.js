@@ -9,14 +9,13 @@ function escrever(texto) {
 }
 escrever(document.querySelector('#me'));
 
-$('a[href^="#"]').on('click', function (e) {
-  e.preventDefault();
-  var id = $(this).attr('href'),
-    targetOffset = $(id).offset().top;
-
+$('a[href^="#"]').on('click', function (evento) {
+  let idlink = $(this).attr('href'),
+    targetOffset = $(idlink).offset().top;
+  evento.preventDefault();
   $('html, body').animate({
     scrollTop: targetOffset - 100
-  }, 500);
+  }, 0);
 });
 
 $(() => {
