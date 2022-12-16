@@ -4,10 +4,11 @@
 </div>
 
 ```javascript
-function startcourse(){
-	console.log("Sejam muito bem-vindos a Resilia!");
+function startcourse() {
+  console.log('Sejam muito bem-vindos a Resilia!');
 }
 ```
+
 <div align="center"> 
   <h1>Sumário</h1>
 	</div>
@@ -68,8 +69,3 @@ function startcourse(){
     <img src="https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white">
  </div>
 	</div>
-
-
-
-
-
