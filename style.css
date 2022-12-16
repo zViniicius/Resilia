@@ -31,6 +31,26 @@ body {
   padding: 1%;
   background-color: #212529;
 }
+a * {
+  color: #ffc107 !important;
+  text-decoration: underline;
+}
+
+#studentlist,
+#stafflist {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  padding: inherit;
+  line-height: 0;
+  color: white;
+}
+.students,
+.staffs {
+  padding: 15px;
+}
 
 #profile {
   margin-top: 5%;
