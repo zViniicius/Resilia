@@ -1,0 +1,23 @@
+{
+  "zViniicius": {
+    "login": "zViniicius",
+    "idade": "26 anos",
+    "localidade": "São Paulo - SP",
+    "linkedIn": "https://www.linkedin.com/in/viniicaetano/",
+    "bio": "&lt;Dev/> by hobby, adepto ao Scrum Method e Design Thinking; Eterno curioso e fascinado pelo mundo Tech."
+  },
+  "DanielGLisboa": {
+    "login": "DanielGLisboa",
+    "idade": "20 Anos",
+    "localidade": "São Paulo - SP",
+    "linkedIn": "https://www.linkedin.com/in/daniel-lisboa-9b1a281aa",
+    "bio": "Futuro Desenvolvedor na RD com muita vontade de CRESCER"
+  },
+  "LigiaBaptista": {
+    "login": "LigiaBaptista",
+    "idade": "26 anos",
+    "localidade": "Bragança Paulista",
+    "linkedIn": "https://www.linkedin.com/in/ligia-baptista-19a1a812a",
+    "bio": "Futura Dev. Fullstack"
+  }
+}

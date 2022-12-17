@@ -36,23 +36,7 @@ a * {
   text-decoration: underline;
 }
 
-#studentlist,
-#stafflist {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  text-align: center;
-  padding: inherit;
-  line-height: 0;
-  color: white;
-}
-.students,
-.staffs {
-  padding: 15px;
-}
-
-#profile {
+/* #profile {
   margin-top: 5%;
   display: flex;
   flex-direction: column;
@@ -67,12 +51,38 @@ a * {
   align-content: center;
   flex-wrap: wrap;
   align-items: center;
-}
+} */
 .navbar > .container {
   flex-direction: column;
   align-content: stretch;
   font-family: 'Fira Code', monospace;
   line-height: 0px;
+}
+.logo {
+  background-color: black;
+  padding: 25px;
+  position: absolute;
+}
+
+main {
+  padding-top: 30px;
+  text-align: center;
+}
+main > .container {
+  padding-top: 2%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: flex-start;
+}
+main > .container > .card {
+  margin-bottom: 2%;
+  transition: box-shadow 0.5s;
+  width: 20rem;
+}
+main > .container > .card:hover {
+  box-shadow: #ffc107 0px 0px 10px 5px;
 }
 
 li > a {
@@ -82,29 +92,17 @@ li > a {
 li > a:hover {
   color: #ffc107;
 }
-
-main > .container {
-  padding-top: 2%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  flex-direction: row;
+.students,
+.staffs {
+  width: 256px;
+  padding: 15px;
 }
-
-main > .container > .card {
-  margin-bottom: 2%;
-  transition: box-shadow 0.5s;
-  width: 20rem;
+.modal {
+  color: #212529;
+  text-align: center;
 }
-
-main > .container > .card:hover {
-  box-shadow: #ffc107 0px 0px 10px 5px;
-}
-
-.logo {
-  background-color: black;
-  padding: 25px;
-  position: absolute;
+.modalLinks {
+  color: #ffc107 !important;
 }
 
 footer > .container {
