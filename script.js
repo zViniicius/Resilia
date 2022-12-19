@@ -98,4 +98,3 @@ $(() => {
   }, 2500);
   $("#progress-m4-value").html(`${Math.round(width)}%`)
 })
-

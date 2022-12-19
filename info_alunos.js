@@ -34,12 +34,12 @@ $(async function () {
         $(`#student_${login}`).append(`<h3>${name}</h3>`)
 
         /*Função para criar os Modais dinamicamente */
-        criarModais(login, name, user[i].idade, user[i].localidade, user[i].linkedIn, html_url, user[i].bio)
+        criarModais(login, name, user[i].idade, user[i].localidade, user[i].linkedIn, html_url, user[i].bio, avatar_url)
       });
   }
 })
 
-function criarModais(login, name, idade, localidade, linkedIn, github, bio) {
+function criarModais(login, name, idade, localidade, linkedIn, github, bio, avatar_url) {
   $("#modais").append(`<div class="modal fade" id="modal_${login}" tabindex="-1">
     <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
@@ -48,6 +48,7 @@ function criarModais(login, name, idade, localidade, linkedIn, github, bio) {
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
+          <img class="rounded-circle" src="${avatar_url}" width="120">
           <h3>${name}</h3>
           <p>${idade} | ${localidade}</p>
           
