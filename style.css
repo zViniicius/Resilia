@@ -1,12 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
 
-@media (prefers-color-scheme: dark) {
-  body {
-    background-color: var(--bs-dark);
-    color: var(--bs-light);
-  }
-}
-
+/* @media (prefers-color-scheme: dark) {
+  
+} */
 @media (min-width: 1200px) {
   .container,
   .container-lg,
@@ -30,6 +26,7 @@
 body {
   padding: 1%;
   background-color: #212529;
+  color: #fff;
 }
 a * {
   color: #ffc107 !important;
