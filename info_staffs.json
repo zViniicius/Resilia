@@ -1,0 +1,56 @@
+{
+  "0": {
+    "nome": "Leonardo Alves",
+    "cargo": "Facilitador Hard",
+    "localidade": "São Paulo - SP",
+    "avatar": "./assets/img/avatarStaff/avatar_leonardo.jpg",
+    "github": "https://github.com/Leon4rdoalves",
+    "linkedIn": "https://www.linkedin.com/in/leonardoalvesprog/",
+    "bio": "Instrutor e desenvolvedor de software, com experiência em Java, Python, MySQL, Js, R, entre outras linguagens e frameworks como Spring Boot, Django, Flask e ReactJs."
+  },
+  "1": {
+    "nome": "Esli Queiroz",
+    "cargo": "Facilitador Soft",
+    "localidade": "Recife - PE",
+    "avatar": "./assets/img/avatarStaff/avatar_esli.jpg",
+    "github": null,
+    "linkedIn": "https://www.linkedin.com/in/esliqueiroz/",
+    "bio": "Sou formado em Recursos Humanos pelo Instituto Brasileiro de Gestão & Marketing. Participei do círculo de pesquisas e desenvolvimento acadêmico sobre a Geração Y e o impacto que ela tem no mercado de trabalho. Além de ter traduzido as revistas científicas da instituição para a língua inglesa por 6 edições."
+  },
+  "2": {
+    "nome": "Karlla Souzza",
+    "cargo": "Facilitador Soft",
+    "localidade": "Taquaritinga - PE",
+    "avatar": "./assets/img/avatarStaff/avatar_karlla.jpg",
+    "github": "https://github.com/karllasouzza",
+    "linkedIn": "https://www.linkedin.com/in/karlla-souzza/",
+    "bio": "Desde pequena, sempre adorei escrever em um caderno porque era fácil, acessível para mim e extremamente gratificante, até que entrei em contato com o desenvolvimento web que me mostrou um mundo de opções, um mundo que ainda pensava que seria o mesmo de antes de transcrever minhas ideias no papel.Até que um dia tive contato com deficientes visuais através do tópico “Acessibilidade” e foi aí que percebi que não é porque vejo uma nota no caderno que todo mundo também vai.[...]"
+  },
+  "3": {
+    "nome": "Victória Ferreira",
+    "cargo": "Onboarding Leader",
+    "localidade": "Salvador - BA",
+    "avatar": "./assets/img/avatarStaff/avatar_vic.jpg",
+    "github": null,
+    "linkedIn": "https://www.linkedin.com/in/victoriaferreirax/",
+    "bio": "Sou psicóloga, formada pela UFPA e aprendiz do Núcleo de Teoria e Pesquisa do Comportamento, com experiência em Psicologia Organizacional, Psicologia Educacional e Psicologia Experimental.Sou apaixonada por temas relacionados a comportamento humano e aprendizagem, e como podemos utilizar estudos para ajudar pessoas e instituições de forma cada vez mais estratégica, humana e inclusiva.[...]"
+  },
+  "4": {
+    "nome": "Jessica Monteiro",
+    "cargo": "Product Owner",
+    "localidade": "São Paulo - SP",
+    "avatar": "./assets/img/avatarStaff/avatar_jessica.jpg",
+    "github": null,
+    "linkedIn": "https://www.linkedin.com/in/jessicacristinemonteiro/",
+    "bio": "Sou formada em Marketing e pós graduada em comunicação e Marketing na UAM! Desde muito nova sempre me identifiquei com essas áreas e sabia que tinha 100% haver com o meu propósito de vida! Estou desenvolvendo minha carreira nas áreas que mais amo: Experiência do cliente e Design gráfico.[...]"
+  },
+  "5": {
+    "nome": "Yasmin Guanaes Farias ",
+    "cargo": "Product Owner",
+    "localidade": "Cidade do Panamá, Panamá",
+    "avatar": "./assets/img/avatarStaff/avatar_yasmin.jpg",
+    "github": null,
+    "linkedIn": "https://www.linkedin.com/in/yasminguanaesfarias/",
+    "bio": "Graduated in Psychology at Escola Bahiana de Medicina e Saúde Pública. Living in Panama since March/2021. As an intern and study group representative, I have experience in Career Guidance and Counseling at EBMSP. During the internship, I have also planned and executed yarning circles and workshops regarding subjects: home office during the pandemic; self-esteem; human relations and new technologies; career development and mindset, communication, entrepreneurship, and others. I also have experience as a member of the research group Health and Childhood as a volunteer researcher on the topic of risks to the mental health of refugee children in the context of the pandemic.Currently, I'm training in Career Guidance and Counseling"
+  }
+}
