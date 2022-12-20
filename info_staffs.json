@@ -45,12 +45,21 @@
     "bio": "Sou formada em Marketing e pós graduada em comunicação e Marketing na UAM! Desde muito nova sempre me identifiquei com essas áreas e sabia que tinha 100% haver com o meu propósito de vida! Estou desenvolvendo minha carreira nas áreas que mais amo: Experiência do cliente e Design gráfico.[...]"
   },
   "5": {
-    "nome": "Yasmin Guanaes Farias ",
-    "cargo": "Product Owner",
+    "nome": "Yasmin Guanaes Farias",
+    "cargo": "Student Success Team",
     "localidade": "Cidade do Panamá, Panamá",
     "avatar": "./assets/img/avatarStaff/avatar_yasmin.jpg",
     "github": null,
     "linkedIn": "https://www.linkedin.com/in/yasminguanaesfarias/",
     "bio": "Graduated in Psychology at Escola Bahiana de Medicina e Saúde Pública. Living in Panama since March/2021. As an intern and study group representative, I have experience in Career Guidance and Counseling at EBMSP. During the internship, I have also planned and executed yarning circles and workshops regarding subjects: home office during the pandemic; self-esteem; human relations and new technologies; career development and mindset, communication, entrepreneurship, and others. I also have experience as a member of the research group Health and Childhood as a volunteer researcher on the topic of risks to the mental health of refugee children in the context of the pandemic.Currently, I'm training in Career Guidance and Counseling"
+  },
+  "6": {
+    "nome": "Carolina Mello",
+    "cargo": "Gerente de Operações",
+    "localidade": "Rio de Janeiro - RJ",
+    "avatar": "./assets/img/avatarStaff/avatar_carolina.jpg",
+    "github": null,
+    "linkedIn": "https://www.linkedin.com/in/carolinafmello/",
+    "bio": ""
   }
 }

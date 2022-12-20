@@ -4,7 +4,7 @@
     "idade": "26 anos",
     "localidade": "São Paulo - SP",
     "linkedIn": "https://www.linkedin.com/in/viniicaetano/",
-    "bio": " &lt;Dev/> by hobby, adepto ao Scrum Method e Design Thinking; Eterno curioso e fascinado pelo mundo Tech. "
+    "bio": " &lt;Dev/> by hobby, adepto ao Scrum Method e Design Thinking; Entusiasta e fascinado pelo mundo Tech. "
   },
   "DanielGLisboa": {
     "login": "DanielGLisboa",
@@ -37,16 +37,16 @@
   "lrmello": {
     "login": "lrmello",
     "idade": "27 ",
-    "localidade": "Embu das artes-SP ",
+    "localidade": "Embu das artes - SP ",
     "linkedIn": "https://www.linkedin.com/in/leonardo-reis-95228893/ ",
-    "bio": " Sou um apaixonado por tecnologia e que gosta de descobrir novas maneiras de construir inovações "
+    "bio": "Sou um apaixonado por tecnologia e que gosta de descobrir novas maneiras de construir inovações "
   },
   "joaovitorevora": {
     "login": "joaovitorevora",
     "idade": " 22 anos ",
     "localidade": " Limeira- SP ",
-    "linkedIn": " linkedin.com/in/joão-vitor-dias-évora-51311015b/",
-    "bio": " Futuro Dev. RD "
+    "linkedIn": "https://linkedin.com/in/joão-vitor-dias-évora-51311015b/",
+    "bio": "Futuro Dev. RD "
   },
   "elodossilva": {
     "login": "elodossilva",
@@ -57,23 +57,23 @@
   },
   "EmersonGald1n0": {
     "login": "EmersonGald1n0",
-    "idade": " 23 anos ",
+    "idade": "23 anos ",
     "localidade": "São Paulo - SP ",
-    "linkedIn": " linkedin.com/in/emerson-pg",
+    "linkedIn": "https://linkedin.com/in/emerson-pg",
     "bio": " Estudante de Análise e Desenv. de Sistemas, serei um eterno aprendiz!!! "
   },
   "GabrielPiovesani": {
     "login": "GabrielPiovesani",
-    "idade": " 26 anos ",
+    "idade": "26 anos ",
     "localidade": "Assis - SP ",
-    "linkedIn": " https://www.linkedin.com/in/gabrielpiovesani/",
-    "bio": " I'm studying systems analysis and development, and increasingly passionate about programming, I'm Brazilian, and I'm learning English "
+    "linkedIn": "https://www.linkedin.com/in/gabrielpiovesani/",
+    "bio": "I'm studying systems analysis and development, and increasingly passionate about programming, I'm Brazilian, and I'm learning English "
   },
   "MaryJackSilva": {
     "login": "MaryJackSilva",
     "idade": " 32",
     "localidade": "Mauá ",
-    "linkedIn": " https://www.linkedin.com/in/maria-jackeline-silva-9112481b3/",
+    "linkedIn": "https://www.linkedin.com/in/maria-jackeline-silva-9112481b3/",
     "bio": " sou capaz de tudo! "
   },
   "renatacabrera": {
@@ -82,5 +82,19 @@
     "localidade": "São Paulo - SP ",
     "linkedIn": " http://linkedin.com/in/renata-cabrera-076b79210",
     "bio": " Graduanda em Física pela Universidade de São Paulo e Futura Dev Learning - RD "
+  },
+  "ivangustav0": {
+    "login": "ivangustav0",
+    "idade": " 21 anos ",
+    "localidade": " Osasco- SP ",
+    "linkedIn": "https://linkedin.com/in/ivan-gustavo-dev1n/",
+    "bio": "Em busca de mais linhas para escrever o código da minha vida."
+  },
+  "ThiagoMSo": {
+    "login": "ThiagoMSo",
+    "idade": "22 anos",
+    "localidade": "Ribeirão Preto - SP ",
+    "linkedIn": " https://www.linkedin.com/in/thiago-soares-41b7448b/",
+    "bio": " Graduando em Analise e desenvolvimento de sistemas e Dev learning na RD."
   }
 }
