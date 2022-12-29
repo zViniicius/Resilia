@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+@media (min-width: 1200px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 1280px;
+  }
+}
+@keyframes progress-bar-stripes {
+  0% {
+    background-position-x: 50px;
+  }
+}
+@media (max-width: 580px) {
+  .logo {
+    visibility: hidden;
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  padding: 1%;
+  background-color: #212529;
+  color: #fff;
+}
+.hidden{
+  visibility: hidden;
+}
+a * {
+  color: #ffc107 !important;
+  text-decoration: underline;
+}
+.modal-content {
+  border: none;
+}
+.navbar > .container {
+  flex-direction: column;
+  align-content: stretch;
+  font-family: 'Fira Code', monospace;
+  line-height: 0px;
+  position: relative;
+  
+}
+#tooltipBttn{
+    right: 20px;
+    transform: rotateY(0deg);
+    transition: transform 0.8s ease-in-out;
+    -moz-transform: rotateY(0deg);
+    -moz-transition: transform 0.8s ease-in-out;
+    -webkit-transform: rotateY(0deg);
+    -webkit-transition: transform 0.8s ease-in-out;
+    -o-transform: rotateY(0deg);
+    -o-transition: transform 0.8s ease-in-out;
+    cursor: pointer;
+    color: white;
+  }
+  #tooltipBttn:hover{
+    transform: rotateY(360deg);
+    -moz-transform: rotateY(360deg);
+    -webkit-transform: rotateY(360deg);
+    -o-transform: rotateY(360deg);
+     color: #ffc107;
+}
+  
+.logo {
+  background-color: black;
+  padding: 25px;
+  position: absolute;
+}
+
+main {
+  padding-top: 30px;
+  text-align: center;
+}
+main > .container {
+  padding-top: 2%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: flex-start;
+}
+main > .container > .card {
+  margin-bottom: 2%;
+  transition: box-shadow 0.5s;
+  width: 20rem;
+}
+main > .container > .card:hover {
+  box-shadow: #ffc107 0px 0px 10px 5px;
+}
+a > .rounded-circle{
+  transform: rotateY(0deg);
+    transition: transform box-shadow 0.8s ease-in-out;
+    -moz-transform: rotateY(0deg);
+    -moz-transition: transform 0.8s ease-in-out;
+    -webkit-transform: rotateY(0deg);
+    -webkit-transition: transform 0.8s ease-in-out;
+    -o-transform: rotateY(0deg);
+    -o-transition: transform 0.8s ease-in-out;
+    
+}
+a > .rounded-circle:hover{
+  transform: rotateY(360deg);
+    -moz-transform: rotateY(360deg);
+    -webkit-transform: rotateY(360deg);
+    -o-transform: rotateY(360deg);
+    box-shadow: #ffc107 0px 0px 5px 1px;
+}
+
+li > a {
+  font-family: 'Fira Code', monospace;
+}
+
+li > a:hover {
+  color: #ffc107;
+}
+.students,
+.staffs {
+  width: 256px;
+  padding: 15px;
+}
+.modal {
+  color: #212529;
+  text-align: center;
+}
+.modalLinks {
+  color: #ffc107 !important;
+}
+
+footer > .container {
+  display: flex;
+  justify-content: space-around;
+}
+footer > .container > a {
+  font-size: xx-large;
+  transition: font-size 0.1s;
+}
+footer > .container > a:hover {
+  font-size: 27pt;
+}

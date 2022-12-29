@@ -1,5 +1,5 @@
-import infoAlunos from './info_alunos.json'  assert {type: 'json'};
-import infoStaffs from './info_staffs.json'  assert {type: 'json'};
+import infoAlunos from './json/info_alunos.json'  assert {type: 'json'};
+import infoStaffs from './json/info_staffs.json' assert { type: 'json' };
 
 
 $(async function () {

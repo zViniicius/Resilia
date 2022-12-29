@@ -1,1 +1,0 @@
-import infoStaffs from './info_staffs.json'  assert {type: 'json'};
