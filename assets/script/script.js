@@ -1,4 +1,4 @@
-const tooltipInfo = [...$('[data-bs-toggle="tooltip"]')].map(trigger => new bootstrap.Tooltip(trigger)) // ToolTip Info Bell
+
 // Config Smooth Scrool
 $('a[href^="#"]').on('click', function (evento) {
   let idlink = $(this).attr('href'),

@@ -1,4 +1,7 @@
+/* Importações */
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
+/* Media Query */
 @media (min-width: 1200px) {
   .container,
   .container-lg,
@@ -8,16 +11,47 @@
     max-width: 1280px;
   }
 }
-@keyframes progress-bar-stripes {
-  0% {
-    background-position-x: 50px;
-  }
-}
+
 @media (max-width: 580px) {
   .logo {
     visibility: hidden;
   }
 }
+
+/* Animações */
+@keyframes Shake {
+  0%,
+  100% {
+    transform: rotate(0deg);
+    transform-origin: 50% 50%;
+  }
+
+  10% {
+    transform: rotate(8deg);
+  }
+
+  20%,
+  40%,
+  60% {
+    transform: rotate(-10deg);
+  }
+
+  30%,
+  50%,
+  70% {
+    transform: rotate(10deg);
+  }
+
+  80% {
+    transform: rotate(-8deg);
+  }
+
+  90% {
+    transform: rotate(8deg);
+  }
+}
+
+/* Tags Globais */
 html {
   scroll-behavior: smooth;
 }
@@ -26,7 +60,8 @@ body {
   background-color: #212529;
   color: #fff;
 }
-.hidden{
+
+.hidden {
   visibility: hidden;
 }
 a * {
@@ -42,29 +77,25 @@ a * {
   font-family: 'Fira Code', monospace;
   line-height: 0px;
   position: relative;
-  
 }
-#tooltipBttn{
-    right: 20px;
-    transform: rotateY(0deg);
-    transition: transform 0.8s ease-in-out;
-    -moz-transform: rotateY(0deg);
-    -moz-transition: transform 0.8s ease-in-out;
-    -webkit-transform: rotateY(0deg);
-    -webkit-transition: transform 0.8s ease-in-out;
-    -o-transform: rotateY(0deg);
-    -o-transition: transform 0.8s ease-in-out;
-    cursor: pointer;
-    color: white;
-  }
-  #tooltipBttn:hover{
-    transform: rotateY(360deg);
-    -moz-transform: rotateY(360deg);
-    -webkit-transform: rotateY(360deg);
-    -o-transform: rotateY(360deg);
-     color: #ffc107;
+#tooltipBttn {
+  right: 20px;
+  transform: rotateY(0deg);
+  transition: transform 0.8s ease-in-out;
+  -moz-transform: rotateY(0deg);
+  -moz-transition: transform 0.8s ease-in-out;
+  -webkit-transform: rotateY(0deg);
+  -webkit-transition: transform 0.8s ease-in-out;
+  -o-transform: rotateY(0deg);
+  -o-transition: transform 0.8s ease-in-out;
+  cursor: pointer;
+  color: white;
 }
-  
+#tooltipBttn:hover {
+  animation: Shake 1s cubic-bezier(0.37, 0, 0.63, 1) 0s 1 normal none;
+  color: #ffc107;
+}
+
 .logo {
   background-color: black;
   padding: 25px;
@@ -91,23 +122,16 @@ main > .container > .card {
 main > .container > .card:hover {
   box-shadow: #ffc107 0px 0px 10px 5px;
 }
-a > .rounded-circle{
+.avatar-profile {
+  scale: 0.95;
+  border-radius: 50%;
   transform: rotateY(0deg);
-    transition: transform box-shadow 0.8s ease-in-out;
-    -moz-transform: rotateY(0deg);
-    -moz-transition: transform 0.8s ease-in-out;
-    -webkit-transform: rotateY(0deg);
-    -webkit-transition: transform 0.8s ease-in-out;
-    -o-transform: rotateY(0deg);
-    -o-transition: transform 0.8s ease-in-out;
-    
+  transition: all 0.8s ease-in-out;
 }
-a > .rounded-circle:hover{
+.avatar-profile:hover {
+  scale: 1;
   transform: rotateY(360deg);
-    -moz-transform: rotateY(360deg);
-    -webkit-transform: rotateY(360deg);
-    -o-transform: rotateY(360deg);
-    box-shadow: #ffc107 0px 0px 5px 1px;
+  box-shadow: #ffc107 0px 0px 5px 1px;
 }
 
 li > a {
